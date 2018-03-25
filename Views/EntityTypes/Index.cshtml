@@ -1,0 +1,21 @@
+﻿@using Audiences.ViewModels
+@model IList<Audiences.ViewModels.EntityTypeViewModel>
+
+<h1>Tipos de entidad</h1>
+
+<a asp-action="Create" class="btn btn-primary pull-right">Agregar</a>
+
+<table class="table">
+    <thead>
+        <th>Nombre</th>
+    </thead>
+    
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(modelItem => item.Name)</td>
+        </tr>
+    }
+    </tbody>
+</table>

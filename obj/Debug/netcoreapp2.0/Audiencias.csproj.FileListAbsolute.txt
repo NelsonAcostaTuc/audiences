@@ -1,0 +1,12 @@
+/home/edu/sites/training/nelson/Audiencias/bin/Debug/netcoreapp2.0/app.db
+/home/edu/sites/training/nelson/Audiencias/obj/Debug/netcoreapp2.0/Audiencias.csproj.CoreCompileInputs.cache
+/home/edu/sites/training/nelson/Audiencias/obj/Debug/netcoreapp2.0/UserSecretsAssemblyInfo.cs
+/home/edu/sites/training/nelson/Audiencias/obj/Debug/netcoreapp2.0/Audiencias.AssemblyInfoInputs.cache
+/home/edu/sites/training/nelson/Audiencias/obj/Debug/netcoreapp2.0/Audiencias.AssemblyInfo.cs
+/home/edu/sites/training/nelson/Audiencias/bin/Debug/netcoreapp2.0/Audiences.deps.json
+/home/edu/sites/training/nelson/Audiencias/bin/Debug/netcoreapp2.0/Audiences.runtimeconfig.json
+/home/edu/sites/training/nelson/Audiencias/bin/Debug/netcoreapp2.0/Audiences.runtimeconfig.dev.json
+/home/edu/sites/training/nelson/Audiencias/bin/Debug/netcoreapp2.0/Audiences.dll
+/home/edu/sites/training/nelson/Audiencias/bin/Debug/netcoreapp2.0/Audiences.pdb
+/home/edu/sites/training/nelson/Audiencias/obj/Debug/netcoreapp2.0/Audiences.dll
+/home/edu/sites/training/nelson/Audiencias/obj/Debug/netcoreapp2.0/Audiences.pdb
