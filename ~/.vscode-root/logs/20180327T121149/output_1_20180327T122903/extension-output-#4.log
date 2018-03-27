@@ -1,0 +1,49 @@
+Starting OmniSharp server at 3/27/2018, 12:29:06 PM
+    Target: /home/ConstosoUniversity
+
+OmniSharp server started wth Mono
+    Path: /root/.vscode/extensions/ms-vscode.csharp-1.14.0/.omnisharp/omnisharp/OmniSharp.exe
+    PID: 11658
+
+﻿[info]: OmniSharp.Stdio.Host
+        Starting OmniSharp on ubuntu 16.4 (x64)
+[info]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        Located 2 MSBuild instance(s)
+            1: Mono 15.0 - "/usr/lib/mono/msbuild/15.0/bin"
+            2: StandAlone 15.0 - "/root/.vscode/extensions/ms-vscode.csharp-1.14.0/.omnisharp/omnisharp/msbuild/15.0/Bin"
+[info]: OmniSharp.MSBuild.Discovery.MSBuildLocator
+        Registered MSBuild instance: Mono 15.0 - "/usr/lib/mono/msbuild/15.0/bin"
+            CscToolPath = /root/.vscode/extensions/ms-vscode.csharp-1.14.0/.omnisharp/omnisharp/msbuild/15.0/Bin/Roslyn
+            CscToolExe = csc.exe
+[info]: OmniSharp.Cake.CakeProjectSystem
+        Detecting Cake files in '/home/ConstosoUniversity'.
+[info]: OmniSharp.Cake.CakeProjectSystem
+        Could not find any Cake files
+[info]: OmniSharp.DotNet.DotNetProjectSystem
+        Initializing in /home/ConstosoUniversity
+[info]: OmniSharp.DotNet.DotNetProjectSystem
+        Auto package restore: False
+[info]: OmniSharp.DotNet.DotNetProjectSystem
+        Update workspace context
+[info]: OmniSharp.DotNet.DotNetProjectSystem
+        Resolving projects references
+[info]: OmniSharp.MSBuild.ProjectSystem
+        No solution files found in '/home/ConstosoUniversity'
+[info]: OmniSharp.MSBuild.ProjectManager
+        Queue project update for '/home/ConstosoUniversity/ContosoUniversity.csproj'
+[info]: OmniSharp.Script.ScriptProjectSystem
+        Detecting CSX files in '/home/ConstosoUniversity'.
+[info]: OmniSharp.Script.ScriptProjectSystem
+        Could not find any CSX files
+[info]: OmniSharp.Stdio.Host
+        Invoking Workspace Options Provider: OmniSharp.Roslyn.CSharp.Services.CSharpWorkspaceOptionsProvider
+[info]: OmniSharp.Stdio.Host
+        Configuration finished.
+[info]: OmniSharp.Stdio.Host
+        Omnisharp server running using Stdio at location '/home/ConstosoUniversity' on host 11569.
+[info]: OmniSharp.MSBuild.ProjectManager
+        Loading project: /home/ConstosoUniversity/ContosoUniversity.csproj
+[info]: OmniSharp.MSBuild.ProjectManager
+        Adding project '/home/ConstosoUniversity/ContosoUniversity.csproj'
+[info]: OmniSharp.MSBuild.ProjectManager
+        Update project: ContosoUniversity

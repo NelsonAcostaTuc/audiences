@@ -1,0 +1,29 @@
+@using Audiences.ViewModels
+@model IList<Audiences.ViewModels.ContactViewModel>
+
+<h1>Contactos</h1>
+
+<a asp-action="Create" class="btn btn-primary pull-right">Agregar</a>
+
+<table class="table">
+    <thead>
+        <th>Nombre</th>
+        <th>Apellido</th>
+     </thead>
+    
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(modelItem => item.FirstName)</td>
+        </tr>
+      
+        <tr>
+            <td>@Html.DisplayFor(modelItem => item.LastName)</td>
+        </tr>
+      
+        
+       
+    }
+    </tbody>
+</table>

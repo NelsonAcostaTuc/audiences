@@ -13372,23 +13372,23 @@
     ]
   },
   "packageFolders": {
-    "/home/edu/.nuget/packages/": {},
+    "/root/.nuget/packages/": {},
     "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/edu/sites/training/nelson/Audiencias/Audiencias.csproj",
-      "projectName": "Audiencias",
-      "projectPath": "/home/edu/sites/training/nelson/Audiencias/Audiencias.csproj",
-      "packagesPath": "/home/edu/.nuget/packages/",
-      "outputPath": "/home/edu/sites/training/nelson/Audiencias/obj/",
+      "projectUniqueName": "/home/audiences/Audiencias.csproj",
+      "projectName": "Audiences",
+      "projectPath": "/home/audiences/Audiencias.csproj",
+      "packagesPath": "/root/.nuget/packages/",
+      "outputPath": "/home/audiences/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/edu/.nuget/NuGet/NuGet.Config"
+        "/root/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"

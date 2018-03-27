@@ -1,0 +1,328 @@
+[2018-03-26 07:19:08.829] [renderer1] [error] Illegal argument: line must be non-negative: Error: Illegal argument: line must be non-negative
+    at Object.t.illegalArgument (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:86:307)
+    at new e (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:462:192)
+    at CodeActionProvider.getInitializeFromCtorCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:166:61)
+    at addInitalizeFromCtor (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:15:28)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:19:9)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-03-26 07:19:26.838] [renderer1] [error] Cannot read property 'selection' of undefined: TypeError: Cannot read property 'selection' of undefined
+    at CodeActionProvider.getInitializeFromCtorCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:165:32)
+    at addInitalizeFromCtor (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:15:28)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:19:9)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-03-26 07:19:41.382] [renderer1] [error] Cannot read property 'selection' of undefined: TypeError: Cannot read property 'selection' of undefined
+    at CodeActionProvider.getInitializeFromCtorCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:165:32)
+    at addInitalizeFromCtor (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:15:28)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:19:9)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-03-26 07:19:46.624] [renderer1] [error] Cannot read property 'selection' of undefined: TypeError: Cannot read property 'selection' of undefined
+    at CodeActionProvider.getInitializeFromCtorCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:165:32)
+    at addInitalizeFromCtor (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:15:28)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:19:9)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-03-26 07:28:59.038] [renderer1] [error] Cannot read property 'trim' of undefined: TypeError: Cannot read property 'trim' of undefined
+    at ctorParamStr.split.forEach (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:180:36)
+    at Array.forEach (native)
+    at CodeActionProvider.getInitializeFromCtorCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:177:33)
+    at addInitalizeFromCtor (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:15:28)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:19:9)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-03-26 07:29:13.795] [renderer1] [error] Cannot read property 'selection' of undefined: TypeError: Cannot read property 'selection' of undefined
+    at CodeActionProvider.getInitializeFromCtorCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:165:32)
+    at addInitalizeFromCtor (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:15:28)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:19:9)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-03-26 07:29:20.026] [renderer1] [error] Cannot read property 'selection' of undefined: TypeError: Cannot read property 'selection' of undefined
+    at CodeActionProvider.getInitializeFromCtorCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:165:32)
+    at addInitalizeFromCtor (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:15:28)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:19:9)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-03-26 07:30:25.966] [renderer1] [error] Cannot read property 'selection' of undefined: TypeError: Cannot read property 'selection' of undefined
+    at CodeActionProvider.getInitializeFromCtorCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:165:32)
+    at addInitalizeFromCtor (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:15:28)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:19:9)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-03-26 07:30:30.332] [renderer1] [error] Cannot read property 'selection' of undefined: TypeError: Cannot read property 'selection' of undefined
+    at CodeActionProvider.getInitializeFromCtorCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:165:32)
+    at addInitalizeFromCtor (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:15:28)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:19:9)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-03-26 07:30:33.060] [renderer1] [error] Cannot read property 'selection' of undefined: TypeError: Cannot read property 'selection' of undefined
+    at CodeActionProvider.getInitializeFromCtorCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:165:32)
+    at addInitalizeFromCtor (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:15:28)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:19:9)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-03-26 07:34:06.162] [renderer1] [error] Cannot read property 'selection' of undefined: TypeError: Cannot read property 'selection' of undefined
+    at CodeActionProvider.getInitializeFromCtorCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:165:32)
+    at addInitalizeFromCtor (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:15:28)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:19:9)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-03-26 07:34:42.687] [renderer1] [error] Cannot read property 'selection' of undefined: TypeError: Cannot read property 'selection' of undefined
+    at CodeActionProvider.getInitializeFromCtorCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:165:32)
+    at addInitalizeFromCtor (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:15:28)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:19:9)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+

@@ -1,0 +1,64 @@
+[2018-03-26 07:11:54.011] [sharedprocess] [info] main {"machineId":"5f906e6d34bef1eee3dd2031af0af689fb6fb0de9d2e8e4846ac068d85ceca24"}
+[2018-03-26 07:11:55.028] [sharedprocess] [info] Scanned user extensions: 19
+[2018-03-26 07:11:56.512] [sharedprocess] [info] Scanned system extensions: 65
+[2018-03-26 07:11:57.318] [sharedprocess] [info] Scanned user extensions: 19
+[2018-03-26 07:11:57.323] [sharedprocess] [info] Scanned user extensions: 19
+[2018-03-26 07:11:57.333] [sharedprocess] [info] Scanned user extensions: 19
+[2018-03-26 07:11:57.379] [sharedprocess] [info] Scanned system extensions: 65
+[2018-03-26 07:11:57.386] [sharedprocess] [info] Scanned system extensions: 65
+[2018-03-26 07:12:00.061] [sharedprocess] [info] Scanned user extensions: 19
+[2018-03-26 07:12:03.573] [sharedprocess] [info] Installing extension: Angular-BeastCode
+[2018-03-26 07:12:03.576] [sharedprocess] [info] Installing extension: debugger-for-chrome
+[2018-03-26 07:12:03.577] [sharedprocess] [info] Installing extension: vscode-icons
+[2018-03-26 07:12:10.458] [sharedprocess] [info] Downloaded extension: debugger-for-chrome
+[2018-03-26 07:12:11.215] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/msjsdiag.debugger-for-chrome-4.2.2: msjsdiag.debugger-for-chrome-4.2.2
+[2018-03-26 07:12:11.223] [sharedprocess] [info] Updated metadata of the extension: msjsdiag.debugger-for-chrome-4.2.2
+[2018-03-26 07:12:11.224] [sharedprocess] [info] Extensions installed successfully: msjsdiag.debugger-for-chrome
+[2018-03-26 07:12:11.386] [sharedprocess] [info] Scanned user extensions: 19
+[2018-03-26 07:12:11.413] [sharedprocess] [info] Scanned system extensions: 65
+[2018-03-26 07:12:15.848] [sharedprocess] [info] Scanned user extensions: 19
+[2018-03-26 07:12:15.862] [sharedprocess] [info] Scanned user extensions: 19
+[2018-03-26 07:12:15.962] [sharedprocess] [info] Scanned system extensions: 65
+[2018-03-26 07:12:15.964] [sharedprocess] [info] Scanned system extensions: 65
+[2018-03-26 07:12:15.993] [sharedprocess] [info] Scanned user extensions: 20
+[2018-03-26 07:12:15.999] [sharedprocess] [info] Scanned user extensions: 20
+[2018-03-26 07:12:16.003] [sharedprocess] [error] Failed to install extension: Mikael.angular-beastcode Canceled
+[2018-03-26 07:12:16.006] [sharedprocess] [error] Failed to install extension: robertohuertasm.vscode-icons Canceled
+[2018-03-26 07:12:16.833] [sharedprocess] [info] Scanned user extensions: 17
+[2018-03-26 07:12:16.867] [sharedprocess] [info] Scanned user extensions: 17
+[2018-03-26 07:12:16.885] [sharedprocess] [info] Scanned system extensions: 65
+[2018-03-26 07:12:16.895] [sharedprocess] [info] Scanned system extensions: 65
+[2018-03-26 07:12:16.906] [sharedprocess] [info] Scanned user extensions: 17
+[2018-03-26 07:12:19.654] [sharedprocess] [info] Scanned user extensions: 17
+[2018-03-26 07:13:20.288] [sharedprocess] [info] Scanned user extensions: 17
+[2018-03-26 07:17:19.836] [sharedprocess] [info] Scanned user extensions: 17
+[2018-03-26 07:19:08.317] [sharedprocess] [info] Scanned user extensions: 17
+[2018-03-26 07:19:26.816] [sharedprocess] [info] Scanned user extensions: 17
+[2018-03-26 07:19:41.400] [sharedprocess] [info] Scanned user extensions: 17
+[2018-03-26 07:19:46.617] [sharedprocess] [info] Scanned user extensions: 17
+[2018-03-26 07:22:20.031] [sharedprocess] [info] Scanned user extensions: 17
+[2018-03-26 07:27:20.163] [sharedprocess] [info] Scanned user extensions: 17
+[2018-03-26 07:29:13.830] [sharedprocess] [info] Scanned user extensions: 17
+[2018-03-26 07:29:20.027] [sharedprocess] [info] Scanned user extensions: 17
+[2018-03-26 07:30:25.986] [sharedprocess] [info] Scanned user extensions: 17
+[2018-03-26 07:30:30.326] [sharedprocess] [info] Scanned user extensions: 17
+[2018-03-26 07:30:33.038] [sharedprocess] [info] Scanned user extensions: 17
+[2018-03-26 07:32:20.253] [sharedprocess] [info] Scanned user extensions: 17
+[2018-03-26 07:34:06.157] [sharedprocess] [info] Scanned user extensions: 17
+[2018-03-26 07:34:42.690] [sharedprocess] [info] Scanned user extensions: 17
+[2018-03-26 07:37:20.334] [sharedprocess] [info] Scanned user extensions: 17
+[2018-03-26 07:42:20.395] [sharedprocess] [info] Scanned user extensions: 17
+[2018-03-26 07:47:20.452] [sharedprocess] [info] Scanned user extensions: 17
+[2018-03-26 07:52:20.581] [sharedprocess] [info] Scanned user extensions: 17
+[2018-03-26 07:57:20.654] [sharedprocess] [info] Scanned user extensions: 17
+[2018-03-26 08:02:20.724] [sharedprocess] [info] Scanned user extensions: 17
+[2018-03-26 08:07:20.800] [sharedprocess] [info] Scanned user extensions: 17
+[2018-03-26 08:12:22.117] [sharedprocess] [info] Scanned user extensions: 17
+[2018-03-26 08:17:22.200] [sharedprocess] [info] Scanned user extensions: 17
+[2018-03-26 08:22:22.278] [sharedprocess] [info] Scanned user extensions: 17
+[2018-03-26 08:27:22.367] [sharedprocess] [info] Scanned user extensions: 17
+[2018-03-26 08:32:22.447] [sharedprocess] [info] Scanned user extensions: 17
+[2018-03-26 08:37:22.501] [sharedprocess] [info] Scanned user extensions: 17
+[2018-03-26 08:42:22.594] [sharedprocess] [info] Scanned user extensions: 17
+[2018-03-26 08:47:22.696] [sharedprocess] [info] Scanned user extensions: 17
+[2018-03-26 08:52:22.781] [sharedprocess] [info] Scanned user extensions: 17

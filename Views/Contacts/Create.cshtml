@@ -1,0 +1,20 @@
+@using Audiences.ViewModels
+@model Audiences.ViewModels.ContactViewModel
+
+<h1>Creando</h1>
+
+<form asp-action="Create" method="POST">
+    <div class="form-group">
+        <label for="FirstName">Nombre:</label>
+        <input name="FirstName" class="form-control"/>    
+    </div>
+
+     <div class="form-group">
+        <label for="LastName">Apellido:</label>
+        <input name="LasttName" class="form-control"/>    
+    </div>
+    
+    <div class="form-group">
+        <input type="submit" class="btn btn-success" value="Guardar"/>
+    </div>
+</form>

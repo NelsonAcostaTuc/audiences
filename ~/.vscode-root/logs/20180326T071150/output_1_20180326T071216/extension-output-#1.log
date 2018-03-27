@@ -1,0 +1,76 @@
+Looking for git in: git
+Using git 2.7.4 from git
+git rev-parse --show-toplevel
+git config --get commit.template
+git status -z -u
+git check-ignore -z --stdin
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git show :Audiencias.csproj
+git show :appsettings.json
+git show :appsettings.Development.json
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git show :appsettings.json
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git check-ignore -z --stdin
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git show :appsettings.json
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git show :Services/Contracts/IEntityTypesService.cs
+git show :Services/Implementations/EntityTypesService.cs
+git show :Services/Contracts/IEntityTypesService.cs
+git show :Services/Implementations/EntityTypesService.cs
+git show :Services/Contracts/IEntityTypesService.cs
+git show :Services/Implementations/EntityTypesService.cs
+git show :Views/EntityTypes/Create.cshtml
+git show :Views/EntityTypes/Index.cshtml
+git show :Models/EntityType.cs
+git show :Models/Entity.cs
+git show :Models/Contact.cs
+git show :Controllers/EntityTypesController.cs
+git show :Models/Contact.cs

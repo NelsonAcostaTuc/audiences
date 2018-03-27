@@ -10,3 +10,15 @@
 /home/edu/sites/training/nelson/Audiencias/bin/Debug/netcoreapp2.0/Audiences.pdb
 /home/edu/sites/training/nelson/Audiencias/obj/Debug/netcoreapp2.0/Audiences.dll
 /home/edu/sites/training/nelson/Audiencias/obj/Debug/netcoreapp2.0/Audiences.pdb
+/home/audiences/bin/Debug/netcoreapp2.0/app.db
+/home/audiences/bin/Debug/netcoreapp2.0/Audiences.deps.json
+/home/audiences/bin/Debug/netcoreapp2.0/Audiences.runtimeconfig.json
+/home/audiences/bin/Debug/netcoreapp2.0/Audiences.runtimeconfig.dev.json
+/home/audiences/bin/Debug/netcoreapp2.0/Audiences.dll
+/home/audiences/bin/Debug/netcoreapp2.0/Audiences.pdb
+/home/audiences/obj/Debug/netcoreapp2.0/Audiencias.csproj.CoreCompileInputs.cache
+/home/audiences/obj/Debug/netcoreapp2.0/UserSecretsAssemblyInfo.cs
+/home/audiences/obj/Debug/netcoreapp2.0/Audiencias.AssemblyInfoInputs.cache
+/home/audiences/obj/Debug/netcoreapp2.0/Audiencias.AssemblyInfo.cs
+/home/audiences/obj/Debug/netcoreapp2.0/Audiences.dll
+/home/audiences/obj/Debug/netcoreapp2.0/Audiences.pdb

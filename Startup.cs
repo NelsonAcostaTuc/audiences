@@ -1,4 +1,6 @@
 ﻿using System;
+using audiences.Services.Contracts;
+using audiences.Services.Implementations;
 using Audiences.Data;
 using Audiences.Models.Identity;
 using Audiences.Services;
@@ -70,6 +72,8 @@ namespace Audiences
             services.AddTransient<IEmailSender, EmailSender>();
 
             services.AddTransient<IEntityTypesService, EntityTypesService>();
+
+            services.AddTransient<IContactsService, ContactsService>();
 
             services.AddMvc();
         }
