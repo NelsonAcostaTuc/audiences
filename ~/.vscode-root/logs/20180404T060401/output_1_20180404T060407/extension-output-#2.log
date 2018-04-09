@@ -1,0 +1,289 @@
+Looking for git in: git
+Using git 2.7.4 from git
+git rev-parse --show-toplevel
+git config --get commit.template
+git status -z -u
+git check-ignore -z --stdin
+git show :Views/Contacts/Index.cshtml
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git show :Views/Contacts/Index.cshtml
+git show :Services/Implementations/ContactsService.cs
+git check-ignore -z --stdin
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git show :Services/Implementations/ContactsService.cs
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git show :Services/Implementations/ContactsService.cs
+git check-ignore -z --stdin
+git show :Views/Contacts/Index.cshtml
+git show :Views/EntityTypes/Index.cshtml
+git show :Views/Contacts/Index.cshtml
+git check-ignore -z --stdin
+git show :ViewModels/ContactViewModel.cs
+git show :Views/Contacts/Index.cshtml
+git show :Views/EntityTypes/Index.cshtml
+git show :Views/Contacts/Index.cshtml
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git show :Views/Contacts/Index.cshtml
+git show :Views/Contacts/Create.cshtml
+git show :Controllers/ContactsController.cs
+git show :Controllers/EntityTypesController.cs
+git show :Controllers/ContactsController.cs
+git show :ViewModels/ContactViewModel.cs
+git show :Controllers/AccountController.cs
+git show :Controllers/EntityTypesController.cs
+git show :Controllers/ContactsController.cs
+git show :Services/Contracts/IContactsService.cs
+git show :Services/Implementations/ContactsService.cs
+git show :Services/Implementations/EntityTypesService.cs
+git show :Services/Implementations/ContactsService.cs
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git show :Services/Implementations/ContactsService.cs
+git check-ignore -z --stdin
+git show :Models/Contact.cs
+git show :Services/Implementations/EntityTypesService.cs
+git show :Services/Implementations/ContactsService.cs
+git show :Services/Implementations/EntityTypesService.cs
+git check-ignore -z --stdin
+git show :Migrations/ApplicationDbContextModelSnapshot.cs
+git show :Migrations/20180327190701_ContactInitial.Designer.cs
+git show :Migrations/20180327190701_ContactInitial.cs
+git show :Program.cs
+git show :Startup.cs
+git show :Services/Contracts/IContactsService.cs
+git show :Services/Contracts/IEntityTypesService.cs
+git show :Services/Contracts/IContactsService.cs
+git show :Services/Implementations/ContactsService.cs
+git show :Controllers/ContactsController.cs
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git show :Controllers/ContactsController.cs
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git show :Controllers/ContactsController.cs
+git show :Services/Contracts/IContactsService.cs
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git show :Services/Contracts/IEntityTypesService.cs
+git show :Controllers/ContactsController.cs
+git show :Services/Implementations/ContactsService.cs
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git show :Services/Implementations/ContactsService.cs
+git show :Services/Contracts/IContactsService.cs
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git show :Audiencias.csproj
+git show :Audiencias.csproj
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git show :Views/Contacts/Index.cshtml
+git show :Startup.cs
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git show :Startup.cs
+git show :ViewModels/ContactViewModel.cs
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git show :Startup.cs
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git show HEAD:Startup.cs
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git show :Program.cs
+git show :Startup.cs
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git show :Controllers/ContactsController.cs
+git show :Controllers/ContactsController.cs
+git show HEAD:Startup.cs
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git show :Controllers/ContactsController.cs
+git show HEAD:Startup.cs
+git show :Startup.cs
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git show :Services/Implementations/ContactsService.cs
+git show :Startup.cs
+git show :Services/Implementations/ContactsService.cs
+git show :Startup.cs
+git show HEAD:Startup.cs
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git show :Startup.cs
+git show HEAD:Startup.cs
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git show :Startup.cs
+git show HEAD:Startup.cs
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git show :Services/Implementations/ContactsService.cs
+git show :ViewModels/ContactViewModel.cs
+git show :Models/Contact.cs
+git show :Services/Implementations/ContactsService.cs
+git show :Services/Contracts/IContactsService.cs
+git show :Services/Contracts/IEntityTypesService.cs
+git show :Services/Contracts/IContactsService.cs
+git show :Services/Contracts/IEntityTypesService.cs
+git show :Services/Implementations/ContactsService.cs
+git show :Services/Implementations/EntityTypesService.cs

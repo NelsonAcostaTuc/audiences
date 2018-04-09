@@ -1,7 +1,6 @@
 using System.Collections.Generic;
-using audiences.Services.Contracts;
-using Audiences.ViewModels;
 using Audiences.Services.Contracts;
+using Audiences.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace audiences.Controllers

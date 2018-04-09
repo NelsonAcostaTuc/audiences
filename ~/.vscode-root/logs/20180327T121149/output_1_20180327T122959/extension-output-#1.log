@@ -34,3 +34,21 @@ git show :Services/Contracts/IContactsService.cs
 git check-ignore -z --stdin
 git show :Services/Implementations/ContactsService.cs
 git show :Controllers/ContactsController.cs
+git show :Controllers/ContactsController.cs
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git show :Controllers/EntityTypesController.cs
+git show :Controllers/EntityTypesController.cs
+git status -z -u
+git symbolic-ref --short HEAD
+git rev-parse master
+git rev-parse --symbolic-full-name --abbrev-ref master@{u}
+git rev-list --left-right master...origin/master
+git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+git remote --verbose
+git show :Controllers/EntityTypesController.cs

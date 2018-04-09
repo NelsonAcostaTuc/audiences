@@ -1,5 +1,4 @@
 ﻿using System;
-using audiences.Services.Contracts;
 using audiences.Services.Implementations;
 using Audiences.Data;
 using Audiences.Models.Identity;

@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using Audiences.ViewModels;
 
 
-namespace audiences.Services.Contracts
+namespace Audiences.Services.Contracts
 {
     public interface IContactsService
     {

@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
-using audiences.Services.Contracts;
+using Audiences.Services.Contracts;
 using Audiences.ViewModels;
 using Audiences.Data;
 using Audiences.Models;

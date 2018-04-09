@@ -1,0 +1,1564 @@
+[2018-04-04 06:04:30.065] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2018-04-04 06:09:55.100] [renderer1] [error] Cannot read property 'text' of undefined: TypeError: Cannot read property 'text' of undefined
+    at DocommentDomainCSharp.IsTriggerDocomment (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/Lang/DocommentDomainCSharp.js:21:38)
+    at DocommentDomainCSharp.Execute (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/DocommentDomain.js:20:19)
+    at DocommentControllerCSharp._onEvent (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:52:31)
+    at DocommentControllerCSharp.DocommentController.vscode_1.workspace.onDidChangeTextDocument.event (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:18:22)
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:749)
+    at e.$acceptDirtyStateChanged (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:623:1010)
+    at e.$acceptModelSaved (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:623:793)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:15:49.402] [renderer1] [error] Illegal argument, contents must be defined: Error: Illegal argument, contents must be defined
+    at new <anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:471:178)
+    at asHover (/root/.vscode/extensions/schneiderpat.aspnet-helper-0.6.4/node_modules/vscode-languageclient/lib/protocolConverter.js:63:16)
+    at <anonymous>:null:null
+
+[2018-04-04 06:16:05.197] [renderer1] [error] Illegal argument, contents must be defined: Error: Illegal argument, contents must be defined
+    at new <anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:471:178)
+    at asHover (/root/.vscode/extensions/schneiderpat.aspnet-helper-0.6.4/node_modules/vscode-languageclient/lib/protocolConverter.js:63:16)
+    at <anonymous>:null:null
+
+[2018-04-04 06:16:11.056] [renderer1] [error] Illegal value for `line`: Error: Illegal value for `line`
+    at t._lineAt (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:487:34)
+    at Object.lineAt (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:485:801)
+    at CodeActionProvider.findClassFromLine (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:122:33)
+    at CodeActionProvider.getCtorpCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:77:32)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:22:33)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:16:26.721] [renderer1] [error] Illegal argument, contents must be defined: Error: Illegal argument, contents must be defined
+    at new <anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:471:178)
+    at asHover (/root/.vscode/extensions/schneiderpat.aspnet-helper-0.6.4/node_modules/vscode-languageclient/lib/protocolConverter.js:63:16)
+    at <anonymous>:null:null
+
+[2018-04-04 06:16:29.848] [renderer1] [error] Illegal argument, contents must be defined: Error: Illegal argument, contents must be defined
+    at new <anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:471:178)
+    at asHover (/root/.vscode/extensions/schneiderpat.aspnet-helper-0.6.4/node_modules/vscode-languageclient/lib/protocolConverter.js:63:16)
+    at <anonymous>:null:null
+
+[2018-04-04 06:16:35.002] [renderer1] [error] Illegal argument, contents must be defined: Error: Illegal argument, contents must be defined
+    at new <anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:471:178)
+    at asHover (/root/.vscode/extensions/schneiderpat.aspnet-helper-0.6.4/node_modules/vscode-languageclient/lib/protocolConverter.js:63:16)
+    at <anonymous>:null:null
+
+[2018-04-04 06:16:36.905] [renderer1] [error] Illegal argument, contents must be defined: Error: Illegal argument, contents must be defined
+    at new <anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:471:178)
+    at asHover (/root/.vscode/extensions/schneiderpat.aspnet-helper-0.6.4/node_modules/vscode-languageclient/lib/protocolConverter.js:63:16)
+    at <anonymous>:null:null
+
+[2018-04-04 06:18:11.276] [renderer1] [error] Illegal argument, contents must be defined: Error: Illegal argument, contents must be defined
+    at new <anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:471:178)
+    at asHover (/root/.vscode/extensions/schneiderpat.aspnet-helper-0.6.4/node_modules/vscode-languageclient/lib/protocolConverter.js:63:16)
+    at <anonymous>:null:null
+
+[2018-04-04 06:18:25.619] [renderer1] [error] Illegal argument, contents must be defined: Error: Illegal argument, contents must be defined
+    at new <anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:471:178)
+    at asHover (/root/.vscode/extensions/schneiderpat.aspnet-helper-0.6.4/node_modules/vscode-languageclient/lib/protocolConverter.js:63:16)
+    at <anonymous>:null:null
+
+[2018-04-04 06:19:49.129] [renderer1] [error] Illegal argument, contents must be defined: Error: Illegal argument, contents must be defined
+    at new <anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:471:178)
+    at asHover (/root/.vscode/extensions/schneiderpat.aspnet-helper-0.6.4/node_modules/vscode-languageclient/lib/protocolConverter.js:63:16)
+    at <anonymous>:null:null
+
+[2018-04-04 06:20:41.566] [renderer1] [error] Illegal value for `line`: Error: Illegal value for `line`
+    at t._lineAt (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:487:34)
+    at Object.lineAt (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:485:801)
+    at CodeActionProvider.findClassFromLine (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:122:33)
+    at CodeActionProvider.getCtorpCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:77:32)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:22:33)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:20:49.631] [renderer1] [error] Cannot read property 'selection' of undefined: TypeError: Cannot read property 'selection' of undefined
+    at CodeActionProvider.getInitializeFromCtorCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:165:32)
+    at addInitalizeFromCtor (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:15:28)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:19:9)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:22:05.356] [renderer1] [error] Illegal value for `line`: Error: Illegal value for `line`
+    at t._lineAt (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:487:34)
+    at Object.lineAt (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:485:801)
+    at CodeActionProvider.findClassFromLine (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:122:33)
+    at CodeActionProvider.getCtorpCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:77:32)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:22:33)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:22:55.348] [renderer1] [error] Cannot read property 'text' of undefined: TypeError: Cannot read property 'text' of undefined
+    at DocommentDomainCSharp.IsTriggerDocomment (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/Lang/DocommentDomainCSharp.js:21:38)
+    at DocommentDomainCSharp.Execute (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/DocommentDomain.js:20:19)
+    at DocommentControllerCSharp._onEvent (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:52:31)
+    at DocommentControllerCSharp.DocommentController.vscode_1.workspace.onDidChangeTextDocument.event (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:18:22)
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:749)
+    at e.$acceptDirtyStateChanged (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:623:1010)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:23:46.252] [renderer1] [error] Cannot read property 'text' of undefined: TypeError: Cannot read property 'text' of undefined
+    at DocommentDomainCSharp.IsTriggerDocomment (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/Lang/DocommentDomainCSharp.js:21:38)
+    at DocommentDomainCSharp.Execute (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/DocommentDomain.js:20:19)
+    at DocommentControllerCSharp._onEvent (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:52:31)
+    at DocommentControllerCSharp.DocommentController.vscode_1.workspace.onDidChangeTextDocument.event (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:18:22)
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:749)
+    at e.$acceptDirtyStateChanged (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:623:1010)
+    at e.$acceptModelSaved (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:623:793)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:25:07.307] [renderer1] [error] Illegal value for `line`: Error: Illegal value for `line`
+    at t._lineAt (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:487:34)
+    at Object.lineAt (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:485:801)
+    at CodeActionProvider.findClassFromLine (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:122:33)
+    at CodeActionProvider.getCtorpCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:77:32)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:22:33)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:25:31.608] [renderer1] [error] Cannot read property 'selection' of undefined: TypeError: Cannot read property 'selection' of undefined
+    at CodeActionProvider.getInitializeFromCtorCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:165:32)
+    at addInitalizeFromCtor (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:15:28)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:19:9)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:25:39.569] [renderer1] [error] Illegal value for `line`: Error: Illegal value for `line`
+    at t._lineAt (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:487:34)
+    at Object.lineAt (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:485:801)
+    at CodeActionProvider.findClassFromLine (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:122:33)
+    at CodeActionProvider.getCtorpCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:77:32)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:22:33)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:25:50.275] [renderer1] [error] Cannot read property 'selection' of undefined: TypeError: Cannot read property 'selection' of undefined
+    at CodeActionProvider.getInitializeFromCtorCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:165:32)
+    at addInitalizeFromCtor (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:15:28)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:19:9)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:26:13.578] [renderer1] [error] Cannot read property 'selection' of undefined: TypeError: Cannot read property 'selection' of undefined
+    at CodeActionProvider.getInitializeFromCtorCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:165:32)
+    at addInitalizeFromCtor (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:15:28)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:19:9)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:26:24.337] [renderer1] [error] Cannot read property 'selection' of undefined: TypeError: Cannot read property 'selection' of undefined
+    at CodeActionProvider.getInitializeFromCtorCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:165:32)
+    at addInitalizeFromCtor (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:15:28)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:19:9)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:27:25.897] [renderer1] [error] Cannot read property 'selection' of undefined: TypeError: Cannot read property 'selection' of undefined
+    at CodeActionProvider.getInitializeFromCtorCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:165:32)
+    at addInitalizeFromCtor (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:15:28)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:19:9)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:27:27.138] [renderer1] [error] Cannot read property 'selection' of undefined: TypeError: Cannot read property 'selection' of undefined
+    at CodeActionProvider.getInitializeFromCtorCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:165:32)
+    at addInitalizeFromCtor (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:15:28)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:19:9)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:27:55.145] [renderer1] [error] Illegal value for `line`: Error: Illegal value for `line`
+    at t._lineAt (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:487:34)
+    at Object.lineAt (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:485:801)
+    at CodeActionProvider.findClassFromLine (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:122:33)
+    at CodeActionProvider.getCtorpCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:77:32)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:22:33)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:28:05.435] [renderer1] [error] Illegal value for `line`: Error: Illegal value for `line`
+    at t._lineAt (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:487:34)
+    at Object.lineAt (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:485:801)
+    at CodeActionProvider.findClassFromLine (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:122:33)
+    at CodeActionProvider.getCtorpCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:77:32)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:22:33)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:28:13.075] [renderer1] [error] Cannot read property 'text' of undefined: TypeError: Cannot read property 'text' of undefined
+    at DocommentDomainCSharp.IsTriggerDocomment (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/Lang/DocommentDomainCSharp.js:21:38)
+    at DocommentDomainCSharp.Execute (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/DocommentDomain.js:20:19)
+    at DocommentControllerCSharp._onEvent (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:52:31)
+    at DocommentControllerCSharp.DocommentController.vscode_1.workspace.onDidChangeTextDocument.event (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:18:22)
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:749)
+    at e.$acceptDirtyStateChanged (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:623:1010)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:28:34.343] [renderer1] [error] Cannot read property 'text' of undefined: TypeError: Cannot read property 'text' of undefined
+    at DocommentDomainCSharp.IsTriggerDocomment (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/Lang/DocommentDomainCSharp.js:21:38)
+    at DocommentDomainCSharp.Execute (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/DocommentDomain.js:20:19)
+    at DocommentControllerCSharp._onEvent (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:52:31)
+    at DocommentControllerCSharp.DocommentController.vscode_1.workspace.onDidChangeTextDocument.event (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:18:22)
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:749)
+    at e.$acceptDirtyStateChanged (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:623:1010)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:28:42.460] [renderer1] [error] Illegal argument: line must be non-negative: Error: Illegal argument: line must be non-negative
+    at Object.t.illegalArgument (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:86:307)
+    at new e (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:462:192)
+    at CodeActionProvider.getInitializeFromCtorCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:166:61)
+    at addInitalizeFromCtor (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:15:28)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:19:9)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:28:43.365] [renderer1] [error] Cannot read property 'text' of undefined: TypeError: Cannot read property 'text' of undefined
+    at DocommentDomainCSharp.IsTriggerDocomment (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/Lang/DocommentDomainCSharp.js:21:38)
+    at DocommentDomainCSharp.Execute (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/DocommentDomain.js:20:19)
+    at DocommentControllerCSharp._onEvent (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:52:31)
+    at DocommentControllerCSharp.DocommentController.vscode_1.workspace.onDidChangeTextDocument.event (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:18:22)
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:749)
+    at e.$acceptDirtyStateChanged (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:623:1010)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:28:43.985] [renderer1] [error] Illegal argument: line must be non-negative: Error: Illegal argument: line must be non-negative
+    at Object.t.illegalArgument (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:86:307)
+    at new e (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:462:192)
+    at CodeActionProvider.getInitializeFromCtorCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:166:61)
+    at addInitalizeFromCtor (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:15:28)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:19:9)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:28:46.956] [renderer1] [error] Illegal argument: line must be non-negative: Error: Illegal argument: line must be non-negative
+    at Object.t.illegalArgument (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:86:307)
+    at new e (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:462:192)
+    at CodeActionProvider.getInitializeFromCtorCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:166:61)
+    at addInitalizeFromCtor (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:15:28)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:19:9)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:28:50.956] [renderer1] [error] Cannot read property 'text' of undefined: TypeError: Cannot read property 'text' of undefined
+    at DocommentDomainCSharp.IsTriggerDocomment (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/Lang/DocommentDomainCSharp.js:21:38)
+    at DocommentDomainCSharp.Execute (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/DocommentDomain.js:20:19)
+    at DocommentControllerCSharp._onEvent (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:52:31)
+    at DocommentControllerCSharp.DocommentController.vscode_1.workspace.onDidChangeTextDocument.event (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:18:22)
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:749)
+    at e.$acceptDirtyStateChanged (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:623:1010)
+    at e.$acceptModelSaved (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:623:793)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:31:41.162] [renderer1] [error] Cannot read property 'text' of undefined: TypeError: Cannot read property 'text' of undefined
+    at DocommentDomainCSharp.IsTriggerDocomment (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/Lang/DocommentDomainCSharp.js:21:38)
+    at DocommentDomainCSharp.Execute (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/DocommentDomain.js:20:19)
+    at DocommentControllerCSharp._onEvent (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:52:31)
+    at DocommentControllerCSharp.DocommentController.vscode_1.workspace.onDidChangeTextDocument.event (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:18:22)
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:749)
+    at e.$acceptDirtyStateChanged (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:623:1010)
+    at e.$acceptModelSaved (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:623:793)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:31:57.300] [renderer1] [error] Illegal value for `line`: Error: Illegal value for `line`
+    at t._lineAt (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:487:34)
+    at Object.lineAt (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:485:801)
+    at CodeActionProvider.findClassFromLine (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:122:33)
+    at CodeActionProvider.getCtorpCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:77:32)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:22:33)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:32:10.109] [renderer1] [error] Cannot read property 'text' of undefined: TypeError: Cannot read property 'text' of undefined
+    at DocommentDomainCSharp.IsTriggerDocomment (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/Lang/DocommentDomainCSharp.js:21:38)
+    at DocommentDomainCSharp.Execute (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/DocommentDomain.js:20:19)
+    at DocommentControllerCSharp._onEvent (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:52:31)
+    at DocommentControllerCSharp.DocommentController.vscode_1.workspace.onDidChangeTextDocument.event (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:18:22)
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:749)
+    at e.$acceptDirtyStateChanged (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:623:1010)
+    at e.$acceptModelSaved (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:623:793)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:32:44.503] [renderer1] [error] Illegal argument: line must be non-negative: Error: Illegal argument: line must be non-negative
+    at Object.t.illegalArgument (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:86:307)
+    at new e (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:462:192)
+    at CodeActionProvider.getInitializeFromCtorCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:166:61)
+    at addInitalizeFromCtor (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:15:28)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:19:9)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:33:48.516] [renderer1] [error] Illegal argument: line must be non-negative: Error: Illegal argument: line must be non-negative
+    at Object.t.illegalArgument (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:86:307)
+    at new e (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:462:192)
+    at CodeActionProvider.getInitializeFromCtorCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:166:61)
+    at addInitalizeFromCtor (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:15:28)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:19:9)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:33:50.131] [renderer1] [error] Cannot read property 'text' of undefined: TypeError: Cannot read property 'text' of undefined
+    at DocommentDomainCSharp.IsTriggerDocomment (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/Lang/DocommentDomainCSharp.js:21:38)
+    at DocommentDomainCSharp.Execute (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/DocommentDomain.js:20:19)
+    at DocommentControllerCSharp._onEvent (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:52:31)
+    at DocommentControllerCSharp.DocommentController.vscode_1.workspace.onDidChangeTextDocument.event (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:18:22)
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:749)
+    at e.$acceptDirtyStateChanged (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:623:1010)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:33:50.751] [renderer1] [error] Illegal argument: line must be non-negative: Error: Illegal argument: line must be non-negative
+    at Object.t.illegalArgument (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:86:307)
+    at new e (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:462:192)
+    at CodeActionProvider.getInitializeFromCtorCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:166:61)
+    at addInitalizeFromCtor (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:15:28)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:19:9)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:33:53.724] [renderer1] [error] Illegal argument: line must be non-negative: Error: Illegal argument: line must be non-negative
+    at Object.t.illegalArgument (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:86:307)
+    at new e (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:462:192)
+    at CodeActionProvider.getInitializeFromCtorCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:166:61)
+    at addInitalizeFromCtor (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:15:28)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:19:9)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:34:09.006] [renderer1] [error] Cannot read property 'text' of undefined: TypeError: Cannot read property 'text' of undefined
+    at DocommentDomainCSharp.IsTriggerDocomment (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/Lang/DocommentDomainCSharp.js:21:38)
+    at DocommentDomainCSharp.Execute (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/DocommentDomain.js:20:19)
+    at DocommentControllerCSharp._onEvent (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:52:31)
+    at DocommentControllerCSharp.DocommentController.vscode_1.workspace.onDidChangeTextDocument.event (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:18:22)
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:749)
+    at e.$acceptDirtyStateChanged (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:623:1010)
+    at e.$acceptModelSaved (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:623:793)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:34:43.023] [renderer1] [error] Cannot read property 'text' of undefined: TypeError: Cannot read property 'text' of undefined
+    at DocommentDomainCSharp.IsTriggerDocomment (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/Lang/DocommentDomainCSharp.js:21:38)
+    at DocommentDomainCSharp.Execute (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/DocommentDomain.js:20:19)
+    at DocommentControllerCSharp._onEvent (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:52:31)
+    at DocommentControllerCSharp.DocommentController.vscode_1.workspace.onDidChangeTextDocument.event (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:18:22)
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:749)
+    at e.$acceptDirtyStateChanged (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:623:1010)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:34:43.107] [renderer1] [error] Cannot read property 'text' of undefined: TypeError: Cannot read property 'text' of undefined
+    at DocommentDomainCSharp.IsTriggerDocomment (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/Lang/DocommentDomainCSharp.js:21:38)
+    at DocommentDomainCSharp.Execute (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/DocommentDomain.js:20:19)
+    at DocommentControllerCSharp._onEvent (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:52:31)
+    at DocommentControllerCSharp.DocommentController.vscode_1.workspace.onDidChangeTextDocument.event (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:18:22)
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:749)
+    at e.$acceptDirtyStateChanged (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:623:1010)
+    at e.$acceptModelSaved (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:623:793)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:34:46.652] [renderer1] [error] Illegal argument: line must be non-negative: Error: Illegal argument: line must be non-negative
+    at Object.t.illegalArgument (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:86:307)
+    at new e (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:462:192)
+    at CodeActionProvider.getInitializeFromCtorCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:166:61)
+    at addInitalizeFromCtor (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:15:28)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:19:9)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:35:00.606] [renderer1] [error] Cannot read property 'text' of undefined: TypeError: Cannot read property 'text' of undefined
+    at DocommentDomainCSharp.IsTriggerDocomment (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/Lang/DocommentDomainCSharp.js:21:38)
+    at DocommentDomainCSharp.Execute (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/DocommentDomain.js:20:19)
+    at DocommentControllerCSharp._onEvent (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:52:31)
+    at DocommentControllerCSharp.DocommentController.vscode_1.workspace.onDidChangeTextDocument.event (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:18:22)
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:749)
+    at e.$acceptDirtyStateChanged (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:623:1010)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:35:05.937] [renderer1] [error] Cannot read property 'text' of undefined: TypeError: Cannot read property 'text' of undefined
+    at DocommentDomainCSharp.IsTriggerDocomment (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/Lang/DocommentDomainCSharp.js:21:38)
+    at DocommentDomainCSharp.Execute (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/DocommentDomain.js:20:19)
+    at DocommentControllerCSharp._onEvent (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:52:31)
+    at DocommentControllerCSharp.DocommentController.vscode_1.workspace.onDidChangeTextDocument.event (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:18:22)
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:749)
+    at e.$acceptDirtyStateChanged (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:623:1010)
+    at e.$acceptModelSaved (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:623:793)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:35:12.348] [renderer1] [error] Illegal argument: line must be non-negative: Error: Illegal argument: line must be non-negative
+    at Object.t.illegalArgument (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:86:307)
+    at new e (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:462:192)
+    at CodeActionProvider.getInitializeFromCtorCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:166:61)
+    at addInitalizeFromCtor (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:15:28)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:19:9)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:36:40.958] [renderer1] [error] Illegal value for `line`: Error: Illegal value for `line`
+    at t._lineAt (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:487:34)
+    at Object.lineAt (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:485:801)
+    at CodeActionProvider.findClassFromLine (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:122:33)
+    at CodeActionProvider.getCtorpCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:77:32)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:22:33)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:37:06.111] [renderer1] [error] Cannot read property 'text' of undefined: TypeError: Cannot read property 'text' of undefined
+    at DocommentDomainCSharp.IsTriggerDocomment (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/Lang/DocommentDomainCSharp.js:21:38)
+    at DocommentDomainCSharp.Execute (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/DocommentDomain.js:20:19)
+    at DocommentControllerCSharp._onEvent (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:52:31)
+    at DocommentControllerCSharp.DocommentController.vscode_1.workspace.onDidChangeTextDocument.event (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:18:22)
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:749)
+    at e.$acceptDirtyStateChanged (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:623:1010)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:38:28.996] [renderer1] [error] Cannot read property 'text' of undefined: TypeError: Cannot read property 'text' of undefined
+    at DocommentDomainCSharp.IsTriggerDocomment (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/Lang/DocommentDomainCSharp.js:21:38)
+    at DocommentDomainCSharp.Execute (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/DocommentDomain.js:20:19)
+    at DocommentControllerCSharp._onEvent (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:52:31)
+    at DocommentControllerCSharp.DocommentController.vscode_1.workspace.onDidChangeTextDocument.event (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:18:22)
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:749)
+    at e.$acceptDirtyStateChanged (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:623:1010)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:38:29.045] [renderer1] [error] Illegal value for `line`: Error: Illegal value for `line`
+    at t._lineAt (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:487:34)
+    at Object.lineAt (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:485:801)
+    at CodeActionProvider.findClassFromLine (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:122:33)
+    at CodeActionProvider.getCtorpCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:77:32)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:22:33)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:38:49.865] [renderer1] [error] Cannot read property 'text' of undefined: TypeError: Cannot read property 'text' of undefined
+    at DocommentDomainCSharp.IsTriggerDocomment (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/Lang/DocommentDomainCSharp.js:21:38)
+    at DocommentDomainCSharp.Execute (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/DocommentDomain.js:20:19)
+    at DocommentControllerCSharp._onEvent (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:52:31)
+    at DocommentControllerCSharp.DocommentController.vscode_1.workspace.onDidChangeTextDocument.event (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:18:22)
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:749)
+    at e.$acceptDirtyStateChanged (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:623:1010)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:38:49.967] [renderer1] [error] Cannot read property 'text' of undefined: TypeError: Cannot read property 'text' of undefined
+    at DocommentDomainCSharp.IsTriggerDocomment (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/Lang/DocommentDomainCSharp.js:21:38)
+    at DocommentDomainCSharp.Execute (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/DocommentDomain.js:20:19)
+    at DocommentControllerCSharp._onEvent (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:52:31)
+    at DocommentControllerCSharp.DocommentController.vscode_1.workspace.onDidChangeTextDocument.event (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:18:22)
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:749)
+    at e.$acceptDirtyStateChanged (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:623:1010)
+    at e.$acceptModelSaved (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:623:793)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:38:52.878] [renderer1] [error] Cannot read property 'text' of undefined: TypeError: Cannot read property 'text' of undefined
+    at DocommentDomainCSharp.IsTriggerDocomment (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/Lang/DocommentDomainCSharp.js:21:38)
+    at DocommentDomainCSharp.Execute (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/DocommentDomain.js:20:19)
+    at DocommentControllerCSharp._onEvent (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:52:31)
+    at DocommentControllerCSharp.DocommentController.vscode_1.workspace.onDidChangeTextDocument.event (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:18:22)
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:749)
+    at e.$acceptDirtyStateChanged (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:623:1010)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:38:53.135] [renderer1] [error] Cannot read property 'text' of undefined: TypeError: Cannot read property 'text' of undefined
+    at DocommentDomainCSharp.IsTriggerDocomment (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/Lang/DocommentDomainCSharp.js:21:38)
+    at DocommentDomainCSharp.Execute (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/DocommentDomain.js:20:19)
+    at DocommentControllerCSharp._onEvent (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:52:31)
+    at DocommentControllerCSharp.DocommentController.vscode_1.workspace.onDidChangeTextDocument.event (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:18:22)
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:749)
+    at e.$acceptDirtyStateChanged (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:623:1010)
+    at e.$acceptModelSaved (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:623:793)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:38:56.380] [renderer1] [error] Illegal argument: line must be non-negative: Error: Illegal argument: line must be non-negative
+    at Object.t.illegalArgument (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:86:307)
+    at new e (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:462:192)
+    at CodeActionProvider.getInitializeFromCtorCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:166:61)
+    at addInitalizeFromCtor (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:15:28)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:19:9)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:38:57.514] [renderer1] [error] Illegal argument: line must be non-negative: Error: Illegal argument: line must be non-negative
+    at Object.t.illegalArgument (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:86:307)
+    at new e (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:462:192)
+    at CodeActionProvider.getInitializeFromCtorCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:166:61)
+    at addInitalizeFromCtor (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:15:28)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:19:9)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:38:59.032] [renderer1] [error] Cannot read property 'text' of undefined: TypeError: Cannot read property 'text' of undefined
+    at DocommentDomainCSharp.IsTriggerDocomment (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/Lang/DocommentDomainCSharp.js:21:38)
+    at DocommentDomainCSharp.Execute (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/DocommentDomain.js:20:19)
+    at DocommentControllerCSharp._onEvent (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:52:31)
+    at DocommentControllerCSharp.DocommentController.vscode_1.workspace.onDidChangeTextDocument.event (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:18:22)
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:749)
+    at e.$acceptDirtyStateChanged (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:623:1010)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:39:03.790] [renderer1] [error] Illegal argument: line must be non-negative: Error: Illegal argument: line must be non-negative
+    at Object.t.illegalArgument (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:86:307)
+    at new e (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:462:192)
+    at CodeActionProvider.getInitializeFromCtorCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:166:61)
+    at addInitalizeFromCtor (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:15:28)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:19:9)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:39:06.247] [renderer1] [error] Cannot read property 'text' of undefined: TypeError: Cannot read property 'text' of undefined
+    at DocommentDomainCSharp.IsTriggerDocomment (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/Lang/DocommentDomainCSharp.js:21:38)
+    at DocommentDomainCSharp.Execute (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Domain/DocommentDomain.js:20:19)
+    at DocommentControllerCSharp._onEvent (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:52:31)
+    at DocommentControllerCSharp.DocommentController.vscode_1.workspace.onDidChangeTextDocument.event (/root/.vscode/extensions/k--kato.docomment-0.0.17/out/src/Controller/DocommentController.js:18:22)
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:749)
+    at e.$acceptDirtyStateChanged (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:623:1010)
+    at e.$acceptModelSaved (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:623:793)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:55:25.379] [renderer1] [error] Illegal value for `line`: Error: Illegal value for `line`
+    at t._lineAt (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:487:34)
+    at Object.lineAt (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:485:801)
+    at CodeActionProvider.findClassFromLine (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:122:33)
+    at CodeActionProvider.getCtorpCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:77:32)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:22:33)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:59:20.597] [renderer1] [error] Illegal value for `line`: Error: Illegal value for `line`
+    at t._lineAt (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:487:34)
+    at Object.lineAt (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:485:801)
+    at CodeActionProvider.findClassFromLine (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:122:33)
+    at CodeActionProvider.getCtorpCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:77:32)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:22:33)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:59:20.813] [renderer1] [error] Illegal argument: line must be non-negative: Error: Illegal argument: line must be non-negative
+    at Object.t.illegalArgument (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:86:307)
+    at new e (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:462:192)
+    at CodeActionProvider.getInitializeFromCtorCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:166:61)
+    at addInitalizeFromCtor (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:15:28)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:19:9)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:59:22.537] [renderer1] [error] Illegal argument: line must be non-negative: Error: Illegal argument: line must be non-negative
+    at Object.t.illegalArgument (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:86:307)
+    at new e (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:462:192)
+    at CodeActionProvider.getInitializeFromCtorCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:166:61)
+    at addInitalizeFromCtor (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:15:28)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:19:9)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:59:25.976] [renderer1] [error] Illegal argument: line must be non-negative: Error: Illegal argument: line must be non-negative
+    at Object.t.illegalArgument (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:86:307)
+    at new e (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:462:192)
+    at CodeActionProvider.getInitializeFromCtorCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:166:61)
+    at addInitalizeFromCtor (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:15:28)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:19:9)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
+[2018-04-04 06:59:30.345] [renderer1] [error] Illegal argument: line must be non-negative: Error: Illegal argument: line must be non-negative
+    at Object.t.illegalArgument (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:86:307)
+    at new e (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:462:192)
+    at CodeActionProvider.getInitializeFromCtorCommand (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:166:61)
+    at addInitalizeFromCtor (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:15:28)
+    at CodeActionProvider.provideCodeActions (/root/.vscode/extensions/jchannon.csharpextensions-1.3.0/out/src/codeActionProvider.js:19:9)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:730
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:622
+    at new n.Class.derive._oncancel (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:75:657)
+    at Object.t.asWinJsPromise (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:98:585)
+    at e.provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:628:684)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:51
+    at e._withAdapter (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:637:537)
+    at e.$provideCodeActions (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:641:13)
+    at e._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:983)
+    at e._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:584:701)
+    at e._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:836)
+    at e._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:583:605)
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:582:671
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:585:523
+    at /usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:87:459
+    at e.fire (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:88:729)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:146:633)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+
