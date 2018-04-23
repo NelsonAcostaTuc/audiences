@@ -8,6 +8,7 @@ namespace Audiences.Services.Contracts
     {
         IList<ContactViewModel> getList();
         void Create(ContactViewModel contactViewModel);
+        void Update(ContactViewModel contactViewModel);
     }
     
         

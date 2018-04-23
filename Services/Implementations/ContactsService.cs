@@ -46,5 +46,17 @@ namespace audiences.Services.Implementations
             _context.SaveChanges();
         }
 
+        public void Update(ContactViewModel contactViewModel)
+        {
+            Contact contact = _context.Contacts.Find(contactViewModel.Id);
+
+            contact.LastName = contactViewModel.LastName;
+            contact.FirstName = contactViewModel.FirstName;
+            contact.Address = contactViewModel.Address;
+            contact.PhoneNumber = contactViewModel.PhoneNumber;
+
+            _context.Contacts.Update(contact);
+        }
+
     }
 }

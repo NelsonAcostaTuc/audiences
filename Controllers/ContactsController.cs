@@ -44,6 +44,13 @@ namespace audiences.Controllers
            return Redirect("Index"); 
 
         }
+
+        public IActionResult Edit(ContactViewModel viewModel)
+        {
+            _contactsService.Update(viewModel);
+
+            return Redirect("Index");
+        }
         
     }
 }

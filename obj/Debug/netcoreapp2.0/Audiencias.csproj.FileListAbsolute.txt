@@ -1,0 +1,12 @@
+/Users/edupacios/sites/training/audiences/bin/Debug/netcoreapp2.0/app.db
+/Users/edupacios/sites/training/audiences/bin/Debug/netcoreapp2.0/Audiences.deps.json
+/Users/edupacios/sites/training/audiences/bin/Debug/netcoreapp2.0/Audiences.runtimeconfig.json
+/Users/edupacios/sites/training/audiences/bin/Debug/netcoreapp2.0/Audiences.runtimeconfig.dev.json
+/Users/edupacios/sites/training/audiences/bin/Debug/netcoreapp2.0/Audiences.dll
+/Users/edupacios/sites/training/audiences/bin/Debug/netcoreapp2.0/Audiences.pdb
+/Users/edupacios/sites/training/audiences/obj/Debug/netcoreapp2.0/Audiencias.csproj.CoreCompileInputs.cache
+/Users/edupacios/sites/training/audiences/obj/Debug/netcoreapp2.0/UserSecretsAssemblyInfo.cs
+/Users/edupacios/sites/training/audiences/obj/Debug/netcoreapp2.0/Audiencias.AssemblyInfoInputs.cache
+/Users/edupacios/sites/training/audiences/obj/Debug/netcoreapp2.0/Audiencias.AssemblyInfo.cs
+/Users/edupacios/sites/training/audiences/obj/Debug/netcoreapp2.0/Audiences.dll
+/Users/edupacios/sites/training/audiences/obj/Debug/netcoreapp2.0/Audiences.pdb
