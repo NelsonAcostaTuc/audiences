@@ -1,7 +1,7 @@
 @using Audiences.ViewModels
 @model Audiences.ViewModels.ContactViewModel
 
-<h1>Editando @model.LastName + " " + @model.FirstName</h1>
+<h1>Editando</h1>
 
 <form asp-action="Edit" method="POST">
     <div class="form-group">
@@ -12,6 +12,16 @@
      <div class="form-group">
         <label for="LastName">Apellido:</label>
         <input name="LastName" asp-for="LastName" class="form-control"/>    
+    </div>
+
+    <div class="form-group">
+        <label for="Address">Direccion:</label>
+        <input name="Address" asp-for="Address" class="form-control"/>    
+    </div>
+
+    <div class="form-group">
+        <label for="PhoneNumber">Telefono:</label>
+        <input name="PhoneNumber" asp-for="PhoneNumber" class="form-control"/>    
     </div>
     
     <div class="form-group">

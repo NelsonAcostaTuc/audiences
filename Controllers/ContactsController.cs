@@ -45,11 +45,21 @@ namespace audiences.Controllers
 
         }
 
-        public IActionResult Edit(ContactViewModel viewModel)
-        {
-            _contactsService.Update(viewModel);
 
-            return Redirect("Index");
+        [HttpGet]
+        public IActionResult Edit(int id)
+        {
+            ContactViewModel contactViewModel = _contactsService.findById(id);
+
+            return View(contactViewModel);
+        }
+
+        [HttpPost]
+        public IActionResult Edit(ContactViewModel contactViewModel)
+        {
+            _contactsService.Update(contactViewModel);
+
+            return RedirectToAction("Index");
         }
         
     }

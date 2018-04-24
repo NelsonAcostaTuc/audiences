@@ -7,6 +7,7 @@ namespace Audiences.Services.Contracts
     public interface IContactsService
     {
         IList<ContactViewModel> getList();
+        ContactViewModel findById(int id);
         void Create(ContactViewModel contactViewModel);
         void Update(ContactViewModel contactViewModel);
     }

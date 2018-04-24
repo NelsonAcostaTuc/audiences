@@ -28,7 +28,9 @@ namespace audiences.Services.Implementations
                 contactViewModels.Add(new ContactViewModel()
                 {
                     FirstName = contact.FirstName,
-                    LastName = contact.LastName
+                    LastName = contact.LastName,
+                    Address = contact.Address,
+                    PhoneNumber = contact.PhoneNumber
                 });
             }
             return contactViewModels;
@@ -56,7 +58,24 @@ namespace audiences.Services.Implementations
             contact.PhoneNumber = contactViewModel.PhoneNumber;
 
             _context.Contacts.Update(contact);
+
+            _context.SaveChanges();
         }
 
+        public ContactViewModel findById(int id)
+        {
+            Contact contact = _context.Contacts.Find(id);
+
+            ContactViewModel contactViewModel = new ContactViewModel()
+            {
+                Id = contact.Id,
+                FirstName = contact.FirstName,
+                LastName = contact.LastName,
+                Address = contact.Address,
+                PhoneNumber = contact.PhoneNumber
+            };
+
+            return contactViewModel;
+        }
     }
 }

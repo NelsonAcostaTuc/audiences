@@ -9,6 +9,9 @@
     <thead>
         <th>Nombre</th>
         <th>Apellido</th>
+        <th>Direccion</th>
+        <th>Telefono</th>
+        <th></th>
      </thead>
     
     <tbody>
@@ -17,6 +20,9 @@
         <tr>
             <td>@Html.DisplayFor(modelItem => item.FirstName)</td>
             <td>@Html.DisplayFor(modelItem => item.LastName)</td>
+            <td>@Html.DisplayFor(modelItem => item.Address)</td>
+            <td>@Html.DisplayFor(modelItem => item.PhoneNumber)</td>
+            <td><a href="/contacts/edit/1">Editar</a></td>
         </tr>
       
         
