@@ -27,6 +27,7 @@ namespace audiences.Services.Implementations
             {
                 contactViewModels.Add(new ContactViewModel()
                 {
+                    Id = contact.Id,
                     FirstName = contact.FirstName,
                     LastName = contact.LastName,
                     Address = contact.Address,

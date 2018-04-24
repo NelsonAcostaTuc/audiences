@@ -22,7 +22,9 @@
             <td>@Html.DisplayFor(modelItem => item.LastName)</td>
             <td>@Html.DisplayFor(modelItem => item.Address)</td>
             <td>@Html.DisplayFor(modelItem => item.PhoneNumber)</td>
-            <td><a href="/contacts/edit/1">Editar</a></td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Editar</a>
+            </td>
         </tr>
       
         
