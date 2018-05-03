@@ -43,7 +43,9 @@ namespace audiences.Services.Implementations
           _context.Contacts.Add(new Contact()
             {
                 FirstName = contactViewModel.FirstName,
-                LastName = contactViewModel.LastName
+                LastName = contactViewModel.LastName,
+                Address = contactViewModel.Address,
+                PhoneNumber = contactViewModel.PhoneNumber
             });
 
             _context.SaveChanges();
@@ -62,7 +64,12 @@ namespace audiences.Services.Implementations
 
             _context.SaveChanges();
         }
-
+        public void Delete(ContactViewModel contactViewModel)
+        {
+             Contact contact = _context.Contacts.Find(contactViewModel.Id);
+             _context.Contacts.Remove(contact);
+             _context.SaveChanges();
+        }
         public ContactViewModel findById(int id)
         {
             Contact contact = _context.Contacts.Find(id);

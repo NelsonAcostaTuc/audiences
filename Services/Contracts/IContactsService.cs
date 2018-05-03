@@ -10,6 +10,7 @@ namespace Audiences.Services.Contracts
         ContactViewModel findById(int id);
         void Create(ContactViewModel contactViewModel);
         void Update(ContactViewModel contactViewModel);
+        void Delete(ContactViewModel contactViewModel);
     }
     
         

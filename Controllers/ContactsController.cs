@@ -62,5 +62,21 @@ namespace audiences.Controllers
             return RedirectToAction("Index");
         }
         
+        [HttpGet]
+        public IActionResult Delete(int id)
+        {
+            ContactViewModel contactViewModel = _contactsService.findById(id);
+
+            return View(contactViewModel);
+        }
+
+        [HttpPost]
+        public IActionResult Delete(ContactViewModel contactViewModel)
+        {
+            _contactsService.Delete(contactViewModel);
+
+            return RedirectToAction("Index");
+        }
+        
     }
 }
