@@ -39,5 +39,21 @@ namespace Audiences.Controllers
 
             return Redirect("Index");
         }
+    
+        [HttpGet]
+        public IActionResult Delete(int id)
+        {
+            EntityTypeViewModel entityTypeViewModels = _entityTypesService.findById(id);
+
+            return View(entityTypeViewModels);
+        }
+        [HttpPost]
+        public IActionResult Delete(EntityTypeViewModel entityTypeViewModel)
+        {
+            _entityTypesService.Delete(entityTypeViewModel);
+
+            return RedirectToAction("Index");
+        }
     }
+
 }

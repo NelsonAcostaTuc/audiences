@@ -4,8 +4,7 @@ namespace Audiences.ViewModels
 {
     public class EntityTypeViewModel
     {
-        [Required]
-        [MinLength(3)]
+        public int Id { get; set; }   
         public string Name { get; set; }
     }
 }

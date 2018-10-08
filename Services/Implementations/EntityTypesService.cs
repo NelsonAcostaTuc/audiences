@@ -25,6 +25,7 @@ namespace Audiences.Services.Implementations
             {
                 entityTypeViewModels.Add(new EntityTypeViewModel()
                 {
+                    Id = entityType.Id,
                     Name = entityType.Name
                 });
             }
@@ -41,5 +42,23 @@ namespace Audiences.Services.Implementations
 
             _context.SaveChanges();
         }
+        public void Delete(EntityTypeViewModel entityTypeViewModel)
+        {
+             EntityType entityType = _context.EntityTypes.Find(entityTypeViewModel.Id);
+             _context.EntityTypes.Remove(entityType);
+             _context.SaveChanges();
+        }
+        public EntityTypeViewModel findById(int id)
+        {
+            EntityType entityType = _context.EntityTypes.Find(id);
+
+            EntityTypeViewModel entityTypeViewModel = new EntityTypeViewModel()
+            {
+                Id = entityType.Id,
+                Name = entityType.Name
+                
+            };
+            return entityTypeViewModel;
+        }    
     }
-}
+ }

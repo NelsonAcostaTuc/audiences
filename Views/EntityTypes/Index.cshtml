@@ -15,6 +15,10 @@
     {
         <tr>
             <td>@Html.DisplayFor(modelItem => item.Name)</td>
+             <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Editar</a>
+                <a asp-action="Delete" asp-route-id="@item.Id">Borrar</a>
+             </td>
         </tr>
     }
     </tbody>
