@@ -42,6 +42,17 @@ namespace Audiences.Services.Implementations
 
             _context.SaveChanges();
         }
+
+        public void Update(EntityTypeViewModel entityTypeViewModel)
+        {
+            EntityType entityType = _context.EntityTypes.Find(entityTypeViewModel.Id);
+
+            entityType.Id = entityTypeViewModel.Id;
+            entityType.Name = entityTypeViewModel.Name;
+            
+            _context.EntityTypes.Update(entityType);
+            _context.SaveChanges();
+        }
         public void Delete(EntityTypeViewModel entityTypeViewModel)
         {
              EntityType entityType = _context.EntityTypes.Find(entityTypeViewModel.Id);

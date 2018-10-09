@@ -8,6 +8,7 @@ namespace Audiences.Services.Contracts
         IList<EntityTypeViewModel> getList();
         EntityTypeViewModel findById(int id); 
         void Create(EntityTypeViewModel entityTypeViewModel);
+        void Update(EntityTypeViewModel entityTypeViewModel);
         void Delete(EntityTypeViewModel entityTypeViewModel);
     }
 }
