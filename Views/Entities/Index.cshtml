@@ -1,0 +1,33 @@
+﻿@using Audiences.ViewModels
+@model IList<Audiences.ViewModels.EntityViewModel>
+
+<h1>Entidades</h1>
+
+<a asp-action="Create" class="btn btn-primary pull-right">Agregar</a>
+
+<table class="table">
+    <thead>
+        <th>Nombre</th>
+        <th>Direccion</th>
+        <th>Telefono</th>
+        <th>Descripcion</th>
+        <th></th>
+     </thead>
+    
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(modelItem => item.Name)</td>
+            <td>@Html.DisplayFor(modelItem => item.Address)</td>
+            <td>@Html.DisplayFor(modelItem => item.PhoneNumber)</td>
+            <td>@Html.DisplayFor(modelItem => item.Description)</td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Editar</a>
+                <a asp-action="Delete" asp-route-id="@item.Id">Borrar</a>
+            </td>
+        </tr>
+            
+    }
+    </tbody>
+</table>

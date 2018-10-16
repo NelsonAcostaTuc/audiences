@@ -74,6 +74,8 @@ namespace Audiences
 
             services.AddTransient<IContactsService, ContactsService>();
 
+            services.AddTransient<IEntitiesService, EntitiesService>();
+
             services.AddMvc();
         }
 
