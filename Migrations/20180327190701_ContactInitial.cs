@@ -89,7 +89,7 @@ namespace Audiences.Migrations
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
                     Address = table.Column<string>(nullable: true),
                     Description = table.Column<string>(nullable: true),
-                    EntityTypeId = table.Column<int>(nullable: false),
+                    EntityTypeId = table.Column<int>(nullable: true),
                     Name = table.Column<string>(nullable: true),
                     PhoneNumber = table.Column<string>(nullable: true)
                 },

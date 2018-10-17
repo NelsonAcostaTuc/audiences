@@ -29,6 +29,7 @@ namespace audiences.Services.Implementations
                 {
                     Id = entity.Id,
                     Name = entity.Name,
+                   
                     Address = entity.Address,
                     PhoneNumber = entity.PhoneNumber,
                     Description = entity.Description
@@ -42,8 +43,8 @@ namespace audiences.Services.Implementations
         {
           _context.Entities.Add(new Entity()
             {
-                Id = entityViewModel.Id,
                 Name = entityViewModel.Name,
+               
                 Address = entityViewModel.Address,
                 PhoneNumber = entityViewModel.PhoneNumber,
                 Description = entityViewModel.Description
@@ -55,9 +56,9 @@ namespace audiences.Services.Implementations
         public void Update(EntityViewModel entityViewModel)
         {
             Entity entity = _context.Entities.Find(entityViewModel.Id);
-
-            entity.Id = entityViewModel.Id;
+            
             entity.Name = entityViewModel.Name;
+            
             entity.Address = entityViewModel.Address;
             entity.PhoneNumber = entityViewModel.PhoneNumber;
             entity.Description = entityViewModel.Description;
@@ -80,6 +81,7 @@ namespace audiences.Services.Implementations
             {
                 Id = entity.Id,
                 Name = entity.Name,
+                
                 Address = entity.Address,
                 PhoneNumber = entity.PhoneNumber,
                 Description = entity.Description
