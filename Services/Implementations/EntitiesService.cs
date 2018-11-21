@@ -63,7 +63,7 @@ namespace audiences.Services.Implementations
             entity.PhoneNumber = entityViewModel.PhoneNumber;
             entity.Description = entityViewModel.Description;
 
-            _context.Entities.Update(entity);
+            _context.Entities.Update(entity); 
 
             _context.SaveChanges();
         }

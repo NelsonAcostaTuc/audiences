@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace Audiences.ViewModels
+namespace Audiences.ViewModels 
 {
     public class EntityViewModel
     {
